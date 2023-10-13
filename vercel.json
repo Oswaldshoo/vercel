@@ -10,27 +10,12 @@
       }
     ],
     "routes": [
-      {
-        "src": "/about",
-        "dest": "api/app.py"
-      },
-      {
-        "src": "/contact",
-        "dest": "api/app.py"
-      },
-      {
-        "src": "/login",
-        "dest": "api/app.py"
-      },
-      {
-        "src": "/register",
-        "dest": "api/app.py"
-      },
-     
-      {
-        "src": "/(.*)",
-        "dest": "templates/$1"
-      }
+        { "src": "/about", "dest": "api/app.py" },
+        { "src": "/contact", "dest": "api/app.py" },
+        { "src": "/login", "dest": "api/app.py" },
+        { "src": "/register", "dest": "api/app.py" },
+        { "src": "/other-route", "dest": "api/app.py" },
+        { "src": "/(.*)", "dest": "api/app.py" }
     ]
   }
   
