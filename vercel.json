@@ -26,10 +26,7 @@
         "src": "/register",
         "dest": "api/app.py"
       },
-      {
-        "src": "/other-route",
-        "dest": "api/app.py"
-      },
+     
       {
         "src": "/(.*)",
         "dest": "templates/$1"
